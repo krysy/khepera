@@ -1,0 +1,96 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Khepera", "Khepera\Khepera.csproj", "{9153A5B7-A130-49A9-A626-243035BA2D6B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Perceptron", "Perceptron\Perceptron.csproj", "{7E10FA39-8E89-4CAB-A6AB-C8B9FBA1E0E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Remote", "Remote\Remote.csproj", "{26659CC1-715A-4F64-95E9-7DD3422B4DB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hardware", "Hardware\Hardware.csproj", "{0ACB6047-C720-497B-901F-5CF7A622A13D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoteServer", "RemoteServer\RemoteServer.csproj", "{D2F03147-4E02-436E-945F-5AA2238D6D44}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SteamController", "SteamController\SteamController.csproj", "{E7D6B9BD-8B76-4897-9641-16CEA2BF27A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoteOpcodes", "RemoteOpcodes\RemoteOpcodes.csproj", "{03AC4F49-4485-42FF-BE10-4B9113C92EDC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Remote", "Remote", "{5D963A58-549C-4940-8D9D-6BCA20466A29}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CVTest", "CVTest\CVTest.csproj", "{B2CCC875-E69B-4913-9680-A548870A34DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{602B7C0A-0215-4C9A-BE05-7D882BCF942B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Release|KHEPERA = Release|KHEPERA
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9153A5B7-A130-49A9-A626-243035BA2D6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9153A5B7-A130-49A9-A626-243035BA2D6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9153A5B7-A130-49A9-A626-243035BA2D6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9153A5B7-A130-49A9-A626-243035BA2D6B}.Release|KHEPERA.ActiveCfg = Debug|Any CPU
+		{9153A5B7-A130-49A9-A626-243035BA2D6B}.Release|KHEPERA.Build.0 = Debug|Any CPU
+		{7E10FA39-8E89-4CAB-A6AB-C8B9FBA1E0E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E10FA39-8E89-4CAB-A6AB-C8B9FBA1E0E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E10FA39-8E89-4CAB-A6AB-C8B9FBA1E0E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E10FA39-8E89-4CAB-A6AB-C8B9FBA1E0E4}.Release|KHEPERA.ActiveCfg = Release|KHEPERA
+		{7E10FA39-8E89-4CAB-A6AB-C8B9FBA1E0E4}.Release|KHEPERA.Build.0 = Release|KHEPERA
+		{26659CC1-715A-4F64-95E9-7DD3422B4DB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26659CC1-715A-4F64-95E9-7DD3422B4DB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26659CC1-715A-4F64-95E9-7DD3422B4DB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26659CC1-715A-4F64-95E9-7DD3422B4DB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26659CC1-715A-4F64-95E9-7DD3422B4DB0}.Release|KHEPERA.ActiveCfg = Release|Any CPU
+		{26659CC1-715A-4F64-95E9-7DD3422B4DB0}.Release|KHEPERA.Build.0 = Release|Any CPU
+		{0ACB6047-C720-497B-901F-5CF7A622A13D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0ACB6047-C720-497B-901F-5CF7A622A13D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0ACB6047-C720-497B-901F-5CF7A622A13D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0ACB6047-C720-497B-901F-5CF7A622A13D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0ACB6047-C720-497B-901F-5CF7A622A13D}.Release|KHEPERA.ActiveCfg = Release|Any CPU
+		{0ACB6047-C720-497B-901F-5CF7A622A13D}.Release|KHEPERA.Build.0 = Release|Any CPU
+		{D2F03147-4E02-436E-945F-5AA2238D6D44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2F03147-4E02-436E-945F-5AA2238D6D44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2F03147-4E02-436E-945F-5AA2238D6D44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2F03147-4E02-436E-945F-5AA2238D6D44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2F03147-4E02-436E-945F-5AA2238D6D44}.Release|KHEPERA.ActiveCfg = Release|Any CPU
+		{D2F03147-4E02-436E-945F-5AA2238D6D44}.Release|KHEPERA.Build.0 = Release|Any CPU
+		{E7D6B9BD-8B76-4897-9641-16CEA2BF27A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7D6B9BD-8B76-4897-9641-16CEA2BF27A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7D6B9BD-8B76-4897-9641-16CEA2BF27A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7D6B9BD-8B76-4897-9641-16CEA2BF27A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7D6B9BD-8B76-4897-9641-16CEA2BF27A0}.Release|KHEPERA.ActiveCfg = Release|Any CPU
+		{E7D6B9BD-8B76-4897-9641-16CEA2BF27A0}.Release|KHEPERA.Build.0 = Release|Any CPU
+		{03AC4F49-4485-42FF-BE10-4B9113C92EDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03AC4F49-4485-42FF-BE10-4B9113C92EDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03AC4F49-4485-42FF-BE10-4B9113C92EDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03AC4F49-4485-42FF-BE10-4B9113C92EDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03AC4F49-4485-42FF-BE10-4B9113C92EDC}.Release|KHEPERA.ActiveCfg = Release|Any CPU
+		{03AC4F49-4485-42FF-BE10-4B9113C92EDC}.Release|KHEPERA.Build.0 = Release|Any CPU
+		{B2CCC875-E69B-4913-9680-A548870A34DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2CCC875-E69B-4913-9680-A548870A34DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2CCC875-E69B-4913-9680-A548870A34DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2CCC875-E69B-4913-9680-A548870A34DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2CCC875-E69B-4913-9680-A548870A34DA}.Release|KHEPERA.ActiveCfg = Release|Any CPU
+		{B2CCC875-E69B-4913-9680-A548870A34DA}.Release|KHEPERA.Build.0 = Release|Any CPU
+		{602B7C0A-0215-4C9A-BE05-7D882BCF942B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{602B7C0A-0215-4C9A-BE05-7D882BCF942B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{602B7C0A-0215-4C9A-BE05-7D882BCF942B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{602B7C0A-0215-4C9A-BE05-7D882BCF942B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{602B7C0A-0215-4C9A-BE05-7D882BCF942B}.Release|KHEPERA.ActiveCfg = Release|Any CPU
+		{602B7C0A-0215-4C9A-BE05-7D882BCF942B}.Release|KHEPERA.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {063972EF-1295-4998-A22F-D6AA1C5B77D0}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{26659CC1-715A-4F64-95E9-7DD3422B4DB0} = {5D963A58-549C-4940-8D9D-6BCA20466A29}
+		{D2F03147-4E02-436E-945F-5AA2238D6D44} = {5D963A58-549C-4940-8D9D-6BCA20466A29}
+	EndGlobalSection
+EndGlobal

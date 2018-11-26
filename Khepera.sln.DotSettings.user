@@ -1,0 +1,26 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:Boolean x:Key="/Default/UnloadedProject/UnloadedProjects/=03ac4f49_002D4485_002D42ff_002Dbe10_002D4b9113c92edc_0023RemoteOpcodes/@EntryIndexedValue">True</s:Boolean>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<s:Boolean x:Key="/Default/UnloadedProject/UnloadedProjects/=9153a5b7_002Da130_002D49a9_002Da626_002D243035ba2d6b_0023Khepera/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/UnloadedProject/UnloadedProjects/=d2f03147_002D4e02_002D436e_002D945f_002D5aa2238d6d44_0023RemoteServer/@EntryIndexedValue">True</s:Boolean>
+	
+	<s:Boolean x:Key="/Default/UnloadedProject/UnloadedProjects/=e7d6b9bd_002D8b76_002D4897_002D9641_002D16cea2bf27a0_0023SteamController/@EntryIndexedValue">True</s:Boolean>
+	
+	
+	
+	
+	
+	
+	
+	</wpf:ResourceDictionary>
